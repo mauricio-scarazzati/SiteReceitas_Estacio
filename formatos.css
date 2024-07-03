@@ -1,0 +1,91 @@
+
+
+#principal{
+    background-color: rgb(236, 113, 113);
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+#menu{
+    height: 60px;
+    background-color: rgb(92, 91, 91);
+}
+
+#conteudo{
+    margin-top: 200px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#imagem{
+    margin: 0;
+    width: max-content;
+    padding-right: 15px;
+}
+#imagem img{
+    width: 50px;
+    height: 50px;
+    mix-blend-mode: multiply;
+}
+#titulo{
+    margin: 0 ;
+    width: max-content;
+    line-height: 4px;
+}
+#texto{
+    margin: 0 auto;
+    width: max-content;
+   
+    
+}
+#texto p{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+#rodape p{
+    margin: 0;
+    font-weight: bold;
+
+}
+footer{
+    background-color: rgb(75, 74, 74);
+    height: 25px;
+}
+#rodape{
+   
+    text-align: center;
+}
+.logotipo{
+    width: 50px;
+    height: 50px;
+    mix-blend-mode: multiply;
+}
+
+.row{
+    padding: 10px;
+}
+button{
+    margin-left: 20px;
+    background-color: grey;
+}
+.container-fluir{
+    margin: 10px;
+}
+
+h1{
+    margin-left: 20px;
+}
+a:link{
+    color: #fcfcfc;
+}
+a:active{
+    color: #fcfcfc;
+}
+a:visited{
+    color: #fcfcfc;
+}
+a:hover{
+    font-size: large;
+}
